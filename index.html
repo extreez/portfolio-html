@@ -57,11 +57,105 @@
             <li>Дело храбрых</li>
             <li>Бегущий по лезвию</li>
         </ol>
+
+
+        <!-- проекты -->
+        <br>
+        <h2 id="projects">Проекты</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th rowspan="2">Наименование</th>
+                    <th rowspan="2">Год</th>
+                    <th colspan="2">Наполненность проекта</th>
+                </tr>
+                <tr>
+                    <th><mark>Мои задачи</mark></th>
+                    <th>Остальные задачи</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>1-ое место хакатон ФИЦ</b></td>
+                    <td rowspan="3"><i>2025</i></td>
+                    <td>UI, UX</td>
+                    <td>Front, Back</td>
+                </tr>
+                <tr>
+                    <td><b>2-ое место хакатон НАЙМИКС:CODE</b></td>
+                    <td>UI, UX, UserFlow</td>
+                    <td>Front, Back, AI</td>
+                </tr>
+                <tr>
+                    <td><b>2-ое место хакатон VK x ITMO</b></td>
+                    <td>UI, UX, User Flow, CJM</td>
+                    <td>Front, Back</td>
+                </tr>
+                <tr>
+                    <td><b>Редизайн портала школы</b></td>
+                    <td><i>2024</i></td>
+                    <td>UI, UX, User Flow, ред.</td>
+                    <td>Front, Back, Devops</td>
+                </tr>
+                <tr>
+                    <td><b>Практика IBS</b></td>
+                    <td><i>2023</i></td>
+                    <td>UI, UX</td>
+                    <td>Front</td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="images/FIC-hacaton.png" alt="Банер от хакатона ФИЦ" height="200" loading="lazy">
+                    </td>
+                    <td>
+                        <img src="images/NAIMIX-CODE_hackaton.png" alt="Банер от хакатона НАЙМИКС" height="200"
+                            loading="lazy">
+                    </td>
+                    <td>
+                        <img src="images/ITMO-VK-HACKATON.png" alt="Банер от хакатона VK и ITMO" height="200"
+                            loading="lazy">
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/school-redesign.png" alt="первая страница от редизайна сайта школы"
+                            height="200" loading="lazy"></td>
+                    <td><img src="images/IBS-Practice.png" alt="страница корперативной библиотеки компании IBS"
+                            height="200" loading="lazy"> </td>
+                    <td>
+                        <video src="videos/text+sound.mp4" alt="морф анимация для института" height="200" controls
+                            autoplay muted loading="lazy">
+                        </video>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
     </main>
 
     <!-- шапка -->
     <footer>
+        <!-- контакты -->
+        <h2 id="contacts">Контакты</h2>
+        <h3>Форма оратной связи</h3>
+        <form>
+            <label for="FIO">ФИО</label>
+            <input name="FIO" type="text" placeholder="Константинопальский Константин Констатинович" size="40"
+                title="Напишите своё имя, фимилию и очество">
 
+            <br><br>
+            <label for="email">e-mail</label>
+            <input type="email" name="email" id="e-mail" placeholder="email@mail.com"
+                title="Напишите свою электронную почту">
+
+            <br><br>
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel" inputmode="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                placeholder="xxx-xxx-xxxx" title="Напишите свой номер телефона">
+        </form>
     </footer>
 </body>
 
